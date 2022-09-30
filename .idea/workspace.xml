@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init react app in client" />
+    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664528176393</updated>
       <workItem from="1664528177655" duration="800000" />
-      <workItem from="1664529031740" duration="400000" />
+      <workItem from="1664529031740" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664528788360</created>
@@ -82,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664529425044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init server">
+      <created>1664529758350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529758350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +117,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="init react app in client" />
-    <option name="LAST_COMMIT_MESSAGE" value="init react app in client" />
+    <MESSAGE value="init server" />
+    <option name="LAST_COMMIT_MESSAGE" value="init server" />
   </component>
 </project>
