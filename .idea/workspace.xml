@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="add server dependencies">
+    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init server">
       <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="server-side/dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664528176393</updated>
       <workItem from="1664528177655" duration="800000" />
-      <workItem from="1664529031740" duration="1074000" />
+      <workItem from="1664529031740" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664528788360</created>
@@ -118,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664529998889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init server">
+      <created>1664530207422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664530207422</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init server">
+      <created>1664530267583</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664530267583</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,8 +153,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="init react app in client" />
-    <MESSAGE value="init server" />
     <MESSAGE value="add server dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add server dependencies" />
+    <MESSAGE value="init server" />
+    <option name="LAST_COMMIT_MESSAGE" value="init server" />
   </component>
 </project>
