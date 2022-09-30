@@ -1,14 +1,25 @@
 import './App.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import {useQuery} from "@apollo/client";
+import {GET_ALL_USERS} from "./query/user";
 
 function App() {
+    const { data, loading, error } = useQuery(GET_ALL_USERS)
     const [users, setUsers] = useState([]);
     const [name, setName] = useState('');
     const [age, setAge] = useState(0);
 
+    useEffect(() => {
+        if (!loading) {
+            setUsers(data.getAllUsers)
+        }
+    }, [data])
+
     const handleClick = (e) => {
       e.preventDefault();
     }
+
+    if (loading) return <h1>Loading...</h1>
 
     return (
         <div className='container'>
