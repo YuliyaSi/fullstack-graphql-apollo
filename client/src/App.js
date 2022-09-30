@@ -5,7 +5,7 @@ import {GET_ALL_USERS} from "./query/user";
 import {CREATE_USER} from "./mutation/user";
 
 function App() {
-    const { data, loading, error, refetch } = useQuery(GET_ALL_USERS,
+    const { data, loading, refetch } = useQuery(GET_ALL_USERS,
         // {pollInterval: 500}
     );
     const [newUser] = useMutation(CREATE_USER);
