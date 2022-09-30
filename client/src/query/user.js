@@ -15,3 +15,20 @@ export const GET_ONE_USER = gql`
         }
     }
 `
+
+// fragment
+/**
+ fragment userWithoutAge on User {
+    id, username, posts {
+        title, content
+    }
+ }
+
+ query {
+    getAllUsers {
+        ...userWithoutAge
+    }
+ }
+
+
+ **/
