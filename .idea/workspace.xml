@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="add apollo client and graphql">
+    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="wrap App in Apollo clien provider">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664535100392</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="wrap App in Apollo clien provider">
+      <created>1664538571111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664538571111</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +194,7 @@
     <MESSAGE value="init graphql graphic" />
     <MESSAGE value="create and test query" />
     <MESSAGE value="add apollo client and graphql" />
-    <option name="LAST_COMMIT_MESSAGE" value="add apollo client and graphql" />
+    <MESSAGE value="wrap App in Apollo clien provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrap App in Apollo clien provider" />
   </component>
 </project>
