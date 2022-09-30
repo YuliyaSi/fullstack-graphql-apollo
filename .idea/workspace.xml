@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init" />
+    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init react app in client" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +17,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FTu14EpKACNz93kJ3ZHREMy4Hx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -49,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664528176393</updated>
       <workItem from="1664528177655" duration="800000" />
+      <workItem from="1664529031740" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664528788360</created>
@@ -64,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664528853455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1664529205184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529205184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init react app in client">
+      <created>1664529425044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529425044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +100,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init react app in client" />
+    <option name="LAST_COMMIT_MESSAGE" value="init react app in client" />
   </component>
 </project>
