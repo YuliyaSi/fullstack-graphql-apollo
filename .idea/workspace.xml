@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="create and test query">
-      <change beforePath="$PROJECT_DIR$/server/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/schema.js" afterDir="false" />
+    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="refetching data on clicked button">
+      <change beforePath="$PROJECT_DIR$/client/src/query/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/query/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="server-side/dev" />
+        <entry key="$PROJECT_DIR$" value="client-side/dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,7 +153,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664532881878</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add apollo client and graphql">
+      <created>1664535100392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664535100392</updated>
+    </task>
+    <task id="LOCAL-00014" summary="wrap App in Apollo clien provider">
+      <created>1664538571111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664538571111</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add gitignore">
+      <created>1664538660468</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664538660468</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create query for all users">
+      <created>1664541019909</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664541019909</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refetching data on clicked button">
+      <created>1664542354547</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664542354547</updated>
+    </task>
+    <task id="LOCAL-00018" summary="find user">
+      <created>1664544055977</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664544055977</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +220,12 @@
     <MESSAGE value="init server" />
     <MESSAGE value="init graphql graphic" />
     <MESSAGE value="create and test query" />
-    <option name="LAST_COMMIT_MESSAGE" value="create and test query" />
+    <MESSAGE value="add apollo client and graphql" />
+    <MESSAGE value="wrap App in Apollo clien provider" />
+    <MESSAGE value="add gitignore" />
+    <MESSAGE value="create query for all users" />
+    <MESSAGE value="refetching data on clicked button" />
+    <MESSAGE value="find user" />
+    <option name="LAST_COMMIT_MESSAGE" value="find user" />
   </component>
 </project>
