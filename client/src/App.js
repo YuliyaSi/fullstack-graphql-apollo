@@ -1,10 +1,13 @@
 import './App.css';
 import {useEffect, useState} from "react";
-import {useQuery} from "@apollo/client";
+import {useMutation, useQuery} from "@apollo/client";
 import {GET_ALL_USERS} from "./query/user";
+import {CREATE_USER} from "./mutation/user";
 
 function App() {
-    const { data, loading, error } = useQuery(GET_ALL_USERS)
+    const { data, loading, error } = useQuery(GET_ALL_USERS);
+    const [newUser] = useMutation(CREATE_USER);
+
     const [users, setUsers] = useState([]);
     const [name, setName] = useState('');
     const [age, setAge] = useState(0);
@@ -17,6 +20,18 @@ function App() {
 
     const handleClick = (e) => {
       e.preventDefault();
+      newUser({
+          variables: {
+              input: {
+                  username: name,
+                  age
+              }
+          }
+      }).then(data => {
+          console.log(data.data)
+          setName('');
+          setAge(0)
+      })
     }
 
     if (loading) return <h1>Loading...</h1>
