@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init graphql graphic">
-      <change afterPath="$PROJECT_DIR$/server/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="init schema" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664528176393</updated>
       <workItem from="1664528177655" duration="800000" />
-      <workItem from="1664529031740" duration="2378000" />
+      <workItem from="1664529031740" duration="2693000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664528788360</created>
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664530685451</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init schema">
+      <created>1664531724234</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664531724234</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +175,7 @@
     <MESSAGE value="add server dependencies" />
     <MESSAGE value="init server" />
     <MESSAGE value="init graphql graphic" />
-    <option name="LAST_COMMIT_MESSAGE" value="init graphql graphic" />
+    <MESSAGE value="init schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="init schema" />
   </component>
 </project>
