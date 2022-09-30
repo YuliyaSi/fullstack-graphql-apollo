@@ -1,14 +1,22 @@
 import './App.css';
 import {useEffect, useState} from "react";
 import {useMutation, useQuery} from "@apollo/client";
-import {GET_ALL_USERS} from "./query/user";
+import {GET_ALL_USERS, GET_ONE_USER} from "./query/user";
 import {CREATE_USER} from "./mutation/user";
 
 function App() {
     const { data, loading, refetch } = useQuery(GET_ALL_USERS,
         // {pollInterval: 500}
     );
+    const { data: oneUserData } = useQuery(GET_ONE_USER, {
+        variables: {
+            id: 1
+        }
+    });
+
     const [newUser] = useMutation(CREATE_USER);
+
+    console.log(oneUserData)
 
     const [users, setUsers] = useState([]);
     const [name, setName] = useState('');
@@ -58,6 +66,7 @@ function App() {
                 {users.map(({ id, username, age }) =>
                     <li key={id}>
                         <div>
+                            <span>{id}</span>
                             <h3>Name: {username}</h3>
                             <h6>Age: {age}</h6>
                         </div>
