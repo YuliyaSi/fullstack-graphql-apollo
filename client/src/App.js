@@ -5,7 +5,9 @@ import {GET_ALL_USERS} from "./query/user";
 import {CREATE_USER} from "./mutation/user";
 
 function App() {
-    const { data, loading, error } = useQuery(GET_ALL_USERS);
+    const { data, loading, refetch } = useQuery(GET_ALL_USERS,
+        // {pollInterval: 500}
+    );
     const [newUser] = useMutation(CREATE_USER);
 
     const [users, setUsers] = useState([]);
@@ -34,6 +36,11 @@ function App() {
       })
     }
 
+    const getAll = e => {
+        e.preventDefault();
+        refetch()
+    }
+
     if (loading) return <h1>Loading...</h1>
 
     return (
@@ -44,7 +51,7 @@ function App() {
 
                 <div className="buttons">
                     <button onClick={handleClick}>Create</button>
-                    <button>Get</button>
+                    <button onClick={getAll}>Get</button>
                 </div>
             </form>
             <ul className="list">
