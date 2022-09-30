@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c219a569-a922-4acc-8c99-241cc6df825e" name="Changes" comment="refetching data on clicked button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/query/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/query/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664542354547</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="find user">
+      <created>1664544055977</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664544055977</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +225,7 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="create query for all users" />
     <MESSAGE value="refetching data on clicked button" />
-    <option name="LAST_COMMIT_MESSAGE" value="refetching data on clicked button" />
+    <MESSAGE value="find user" />
+    <option name="LAST_COMMIT_MESSAGE" value="find user" />
   </component>
 </project>
